@@ -1,4 +1,4 @@
-# Ridge Regression L2 — Homework Assignment 1
+# Ridge Regression L2 - Homework Assignment 1
 
 ## Academic Context
 
