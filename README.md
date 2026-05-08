@@ -24,7 +24,7 @@ pip install numpy matplotlib scikit-learn
 
 ### Run
 ```bash
-python ridge_regression.py
+jupyter notebook ridge_regression.ipynb
 ```
 
 ---
