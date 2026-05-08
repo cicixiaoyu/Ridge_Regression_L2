@@ -4,6 +4,7 @@
 
 This project was developed as part of the *Programming for FinTech* course at the Shanghai Advanced Institute of Finance (SJTU).
 
+---
 
 ## Assignment Instructions
 
@@ -11,6 +12,17 @@ This project was developed as part of the *Programming for FinTech* course at th
 - Use GridSearchCV or manually try several different values for the regularization strength parameter \( \lambda \) (alpha in Ridge), also try different polynomial degrees.
 - Write a brief report about what you find.
 
+## Getting Started
+
+### Prerequisites
+```bash
+pip install numpy matplotlib scikit-learn
+```
+
+### Run
+```bash
+python ridge_regression.py
+```
 
 # I/ Methodology
 
