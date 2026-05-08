@@ -30,11 +30,10 @@ Run:
 jupyter notebook ridge_regression.ipynb
 ```
 
----
 
-# Report 
+## Report 
 
-## I/ Methodology
+### I/ Methodology
 
 To try out the polynomial Ridge regression, I started by creating my own dataset. I used a simple
 quadratic formula, y = 15x² + x, and then added a layer of realistic randomness (noise) to mimic
@@ -45,7 +44,7 @@ strength parameter α (0.0002, 0.002, 0.02, 0.1, 0.5, 0.95, 2.5, 5) alongside va
 degrees (1, 2, 3, 5, 8, 9, 10) to identify the optimal model configuration.
 
 
-## II/ Results and analysis
+### II/ Results and analysis
 
 The results showed that simple models were too basic because they systematically underfit the
 data and couldn't capture the underlying curve. The most complex models, as expected, overfit
@@ -62,7 +61,7 @@ The fact that the performance on the test set was only slightly worse than on th
 the real quadratic relationship without being tricked by the noise I had added.
 
 
-## III/ The role and effect of regularization in Ridge regression
+### III/ The role and effect of regularization in Ridge regression
 
 This project really highlighted the power of regularization. Ridge regression works by gently
 penalizing the model for having overly large coefficients, which is what causes overfitting. In
@@ -75,7 +74,7 @@ high, it made the model too simple, causing it to underfit and fail to capture t
 of the polynomial degree I used.
 
 
-## IV/ Conclusion
+### IV/ Conclusion
 
 This exercise confirmed that there's no substitute for carefully tuning a model's parameters. By
 methodically testing different options, I found a Ridge Regression model that successfully
