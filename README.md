@@ -1,7 +1,5 @@
 # Ridge Regression L2 - Homework Assignment 1
 
-## Academic Context
-
 This project was developed as part of the *Programming for FinTech* course at the Shanghai Advanced Institute of Finance (SJTU).
 
 ---
