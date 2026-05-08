@@ -2,7 +2,7 @@
 
 This project was developed as part of the *Programming for FinTech* course at the Shanghai Advanced Institute of Finance (SJTU).
 
-Technologies Used:
+Tools & libraries:
 - Python
 - NumPy
 - Matplotlib
@@ -11,7 +11,7 @@ Technologies Used:
 
 ---
 
-## Assignment Instructions
+## Assignment instructions
 
 - Try out the polynomial Ridge regression using some function other than \( y = \sin(x) + \epsilon \) or \( y = x^3 + \epsilon \).
 - Use GridSearchCV or manually try several different values for the regularization strength parameter \( \lambda \) (alpha in Ridge), also try different polynomial degrees.
@@ -19,9 +19,7 @@ Technologies Used:
 
 ---
 
-## Getting Started
-
-### Prerequisites
+## Requirements
 
 Install required libraries:
 
@@ -29,7 +27,7 @@ Install required libraries:
 pip install numpy matplotlib scikit-learn
 ```
 
-### Run
+## Run
 ```bash
 jupyter notebook ridge_regression.ipynb
 ```
