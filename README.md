@@ -12,6 +12,8 @@ This project was developed as part of the *Programming for FinTech* course at th
 - Use GridSearchCV or manually try several different values for the regularization strength parameter \( \lambda \) (alpha in Ridge), also try different polynomial degrees.
 - Write a brief report about what you find.
 
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -24,6 +26,8 @@ pip install numpy matplotlib scikit-learn
 python ridge_regression.py
 ```
 
+---
+
 # I/ Methodology
 
 To try out the polynomial Ridge regression, I started by creating my own dataset. I used a simple
@@ -34,6 +38,7 @@ new, unseen information. I manually tested several different values for the regu
 strength parameter α (0.0002, 0.002, 0.02, 0.1, 0.5, 0.95, 2.5, 5) alongside various polynomial
 degrees (1, 2, 3, 5, 8, 9, 10) to identify the optimal model configuration.
 
+---
 
 # II/ Results and analysis
 
@@ -51,6 +56,7 @@ The fact that the performance on the test set was only slightly worse than on th
 (the test error was about 21% higher) is a strong sign that the model generalized well. It learned
 the real quadratic relationship without being tricked by the noise I had added.
 
+---
 
 # III/ The role and effect of regularization in Ridge regression
 
@@ -64,6 +70,7 @@ I also saw the downside of being too cautious. When I set the regularization str
 high, it made the model too simple, causing it to underfit and fail to capture the curve, regardless
 of the polynomial degree I used.
 
+---
 
 # IV/ Conclusion
 
@@ -72,6 +79,7 @@ methodically testing different options, I found a Ridge Regression model that su
 identified the hidden quadratic trend in a noisy dataset. Overall, the study highlights Ridge
 regression as a powerful tool enabling accurate and generalizable models even with noisy data.
 
+---
 
 ## Technologies Used
 - Python
