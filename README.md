@@ -15,6 +15,9 @@ This project was developed as part of the *Programming for FinTech* course at th
 ## Getting Started
 
 ### Prerequisites
+
+Install required libraries:
+
 ```bash
 pip install numpy matplotlib scikit-learn
 ```
