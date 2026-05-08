@@ -30,6 +30,7 @@ Run:
 jupyter notebook ridge_regression.ipynb
 ```
 
+---
 
 # I/ Methodology
 
