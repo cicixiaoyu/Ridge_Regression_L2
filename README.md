@@ -2,6 +2,13 @@
 
 This project was developed as part of the *Programming for FinTech* course at the Shanghai Advanced Institute of Finance (SJTU).
 
+Technologies Used:
+- Python
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
 ---
 
 ## Assignment Instructions
@@ -79,12 +86,3 @@ This exercise confirmed that there's no substitute for carefully tuning a model'
 methodically testing different options, I found a Ridge Regression model that successfully
 identified the hidden quadratic trend in a noisy dataset. Overall, the study highlights Ridge
 regression as a powerful tool enabling accurate and generalizable models even with noisy data.
-
----
-
-## Technologies Used
-- Python
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
